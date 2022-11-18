@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+body{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--body-bg-color);
+    color: var(--text-color)
+}
+h1{
+    padding-left: 20px;
+}
+.sidebarFechada{
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    height: 100vh;
+    align-items: center;
+    display:flex;
+
+}
+.sidebar{
+    flex-direction: column;
+    background-color: var(--green);
+    height: 100vh;
+    width: 18vw;
+}
+
+ul{
+    list-style: none;
+    width: 80%;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding-left: 10%;
+
+}
+li{
+    display: flex;
+    margin: 10px 0;
+    padding: 3px;
+}
+#pesquisa{
+    background-color: var(--light-green);
+    border-radius: 5px;
+}
+
+#botao{
+    cursor: pointer;
+    width: 30px;
+    padding-top: 5px;
+}
+#item6{
+    background-color: var(--light-green);
+    border-radius: 5px;
+    width: 85px;
+    text-align: center;
+
+}
+.icon{
+    justify-content: center;
+}
+
+.user{    
+    background-color: var(--light-green);
+    width: 4vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo{
+    width:60px;
+}
+.invisible{
+    display: none
+}
+#lm {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px 0;
+}
+.userAberto{
+    width: 18vw;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 1em;
+
+}
+.menuFechado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
